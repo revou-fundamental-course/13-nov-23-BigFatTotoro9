@@ -13,3 +13,4 @@ CARA PUBLISH TUGAS
 
 Yg di publish link hasil deployan gratis github
 Buat link repos tinggal copy di address bar
+JANGAN UNPUBLISH, PUSH AJA
