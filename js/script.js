@@ -32,3 +32,5 @@ function bannerSlide() {
 
 // otomasi run funsi bannerSlide
 setInterval(bannerSlide, 1000);
+
+console.log("cobain pull request");
