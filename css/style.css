@@ -36,8 +36,13 @@
 }
 
 .review-section {
-  max-width: 100%;
+  max-width: 90%;
+
   max-height: 50%;
+}
+
+.review-section img {
+  max-width: 100%;
 }
 
 .message-us {
