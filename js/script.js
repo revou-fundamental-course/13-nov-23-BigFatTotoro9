@@ -18,7 +18,7 @@ submitButton[0].addEventListener("click", function (event) {
 // });
 
 // bikin list image
-const images = ["./assets/bg.jpg", "./assets/bg2.jpg", "./assets/bg3.jpg"];
+const images = ["assets/bg.jpg", "assets/bg2.jpg", "assets/bg3.jpg"];
 
 // fungsi penambahan i dan autoslider gambar
 var i = 0;
