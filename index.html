@@ -8,17 +8,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:ital,wght@0,400;1,300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
       rel="stylesheet" />
   </head>
   <body>
     <header>
       <section class="navigation-header">
-        <a href="">Logo</a>
+        <a href=""><img src="assets/logo.png" alt="logo" class="logo" /></a>
         <nav class="navigation">
-          <a href="">Home</a>
-          <a href="">Our Package</a>
-          <a href="">Call Us</a>
+          <a href="#hero">Home</a>
+          <a href="#our-package">Our Package</a>
+          <a href="#closing">Call Us</a>
         </nav>
       </section>
       <section class="title-header">
@@ -28,139 +28,131 @@
     </header>
 
     <main>
-      <section class="hero">
-        <section class="hero-upper">
-          <section class="review-section">
-            <img src="assets/bg.jpg" id="slider" />
-            <div class="testimony">
-              <h2>I like to go to this canyon using ID Travel Agent</h2>
-              <div class="testimony-account">
-                <img src="assets/user.png" class="profile-img" />
-                <div class="account-profile">
-                  <h3>Florence Hughes</h3>
-                  <p>Ibu rumah tangga, 28</p>
-                </div>
+      <section class="hero" id="hero">
+        <section class="review-section">
+          <img src="assets/bg.jpg" id="slider" />
+          <div class="testimony">
+            <h2>"I like to go to this place using ID Travel Agent"</h2>
+            <div class="testimony-account">
+              <img src="assets/user.png" class="profile-img" />
+              <div class="account-profile">
+                <h3>Florence Hughes</h3>
+                <p>Ibu rumah tangga, 28</p>
               </div>
             </div>
-            <section class="hero-under">
-              <h3>
-                Use this space to provide users with information about your
-                offer
-              </h3>
-              <div>
-                <p>1. Your first...</p>
-                <p>2. Your second...</p>
-                <p>3. Your third...</p>
-              </div>
-            </section>
-          </section>
-          <section class="message-us">
-            <h5>Contact Us</h5>
-            <h6>Sales akan menghubungi anda</h6>
-            <form class="input-message-us">
-              <label for="name-input">First Name</label>
-              <input
-                type="text"
-                id="name-input"
-                placeholder="First and Last Name" />
-              <label for="email-input">Email</label>
-              <input
-                type="text"
-                id="email-input"
-                placeholder="example@gmail.com" />
-              <button type="button" class="primary-button">Submit</button>
-            </form>
-            <h6 id="username"></h6>
+          </div>
+          <section class="hero-under">
+            <h3>
+              Discover your personalized adventure with our tailored travel
+              package. Our expert agents craft unforgettable journeys, securing
+              premium accommodations and seamless transportation. From beach
+              getaways to adventurous treks, our packages cater to every
+              preference. Benefit from our visa guidance and comprehensive
+              travel insurance for a worry-free experience.
+            </h3>
+            <div class="benefits">
+              <p>1. Tailored Experiences: Crafted just for you!</p>
+              <p>
+                2. All-Inclusive Service: Flights, stays, and adventures in one
+                place!
+              </p>
+              <p>
+                3. Expert Guidance: Visas, insurance, and support for a
+                worry-free journey!
+              </p>
+            </div>
           </section>
         </section>
+        <section class="message-us">
+          <h5>Contact Us</h5>
+          <h6>Sales akan menghubungi anda</h6>
+          <form class="input-message-us">
+            <label for="name-input">First Name</label>
+            <input
+              type="text"
+              id="name-input"
+              placeholder="First and Last Name" />
+            <h5 id="username"></h5>
+
+            <label for="email-input">Email</label>
+            <input
+              type="text"
+              id="email-input"
+              placeholder="example@gmail.com" />
+            <h5 id="email"></h5>
+
+            <button type="button" class="primary-button">Submit</button>
+          </form>
+        </section>
       </section>
-      <section class="our-package">
+
+      <section class="our-package" id="our-package">
         <section class="package-header">
           <h1>OUR PACKAGE</h1>
         </section>
         <section class="location-list">
           <div class="location">
-            <p>logo</p>
+            <img src="assets/travel.png" alt="travel_bag" />
             <div class="location-detail">
-              <p>Bali</p>
+              <p class="location-title">Cape Town</p>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dolorum, quis consequatur! Aliquam aut, velit excepturi quas
-                debitis optio libero rerum?
+                A captivating destination offering diverse experiences, from
+                exploring Table Mountain to discovering its rich cultural
+                heritage and stunning coastal scenery along the Cape Peninsula.
               </p>
             </div>
           </div>
           <div class="location">
-            <p>logo</p>
+            <img src="assets/travel.png" alt="travel_bag" />
             <div class="location-detail">
-              <p>Bali</p>
+              <p class="location-title">Rio de Janeiro</p>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dolorum, quis consequatur! Aliquam aut, velit excepturi quas
-                debitis optio libero rerum?
+                A lively city nestled between ocean and mountains, famed for its
+                Carnival, breathtaking views from Christ the Redeemer, and
+                vibrant samba music.
               </p>
             </div>
           </div>
           <div class="location">
-            <p>logo</p>
+            <img src="assets/travel.png" alt="travel_bag" />
             <div class="location-detail">
-              <p>Bali</p>
+              <p class="location-title">Sydney</p>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dolorum, quis consequatur! Aliquam aut, velit excepturi quas
-                debitis optio libero rerum?
-              </p>
-            </div>
-          </div>
-          <div class="location">
-            <p>logo</p>
-            <div class="location-detail">
-              <p>Bali</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dolorum, quis consequatur! Aliquam aut, velit excepturi quas
-                debitis optio libero rerum?
-              </p>
-            </div>
-          </div>
-          <div class="location">
-            <p>logo</p>
-            <div class="location-detail">
-              <p>Bali</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dolorum, quis consequatur! Aliquam aut, velit excepturi quas
-                debitis optio libero rerum?
-              </p>
-            </div>
-          </div>
-          <div class="location">
-            <p>logo</p>
-            <div class="location-detail">
-              <p>Bali</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dolorum, quis consequatur! Aliquam aut, velit excepturi quas
-                debitis optio libero rerum?
+                A vibrant city renowned for its stunning harbor, the Sydney
+                Opera House, beautiful beaches, and a diverse culinary scene.
               </p>
             </div>
           </div>
         </section>
       </section>
-      <section class="closing">
-        <h1>Closing argument</h1>
+
+      <section class="closing" id="closing">
+        <h1 style="font-size: 24px">
+          Unlock unforgettable adventures with our tailored travel expertise.
+        </h1>
         <h5>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi eveniet
-          assumenda aut molestias tenetur. Natus?
+          Discover a world of tailored adventures with our travel agency. From
+          dreamy getaways to seamless bookings, we craft journeys as unique as
+          you are. Let us guide you to unforgettable experiences, worry-free
         </h5>
-        <button type="button" class="primary-button">Submit</button>
+        <button type="button" class="primary-button" id="call-to-action">
+          TRAVEL NOW
+        </button>
       </section>
     </main>
 
     <footer class="footer">
-      <p>logo</p>
-      <p>Terms of service || Privacy policy</p>
-      <p>@2019 || Moqups</p>
+      <div>
+        <img src="assets/logo.png" alt="logo" class="logo" />
+      </div>
+      <div class="footer-text">
+        <p>Term of service</p>
+        <p>Privacy policy</p>
+      </div>
+      <div class="footer-text">
+        <p>2019</p>
+        <p>ID Travel Agent</p>
+      </div>
     </footer>
 
     <script src="./js/script.js"></script>

@@ -2,20 +2,26 @@ const submitButton = document.getElementsByClassName("primary-button"); // janga
 const nameInput = document.getElementById("name-input");
 const emailInput = document.getElementById("email-input");
 const nameOutput = document.getElementById("username");
+const emailOutput = document.getElementById("email");
 const imageSlider = document.getElementById("slider");
 
 submitButton[0].addEventListener("click", function (event) {
-  if (nameInput.value.length === 0 || emailInput.value.length === 0) {
-    alert("nama atau email tidak boleh kosong");
-  } else {
-    // ini buat ngasih peringatan dibawah form
-    nameOutput.textContent = nameInput.value;
+  if (nameInput.value.length != 0 && emailInput.value.length != 0) {
+    alert("Selamat datang!");
   }
 });
 
-// nameInput.addEventListener("input", function (event) {
-//   console.log(event);
-// });
+nameInput.addEventListener("input", function (event) {
+  if (nameInput.value.length === 0) {
+    nameOutput.textContent = "Nama tidak boleh kosong!";
+  }
+});
+
+emailInput.addEventListener("input", function (event) {
+  if (emailInput.value.length === 0) {
+    emailOutput.textContent = "Email tidak boleh kosong!";
+  }
+});
 
 // bikin list image
 const images = ["assets/bg.jpg", "assets/bg2.jpg", "assets/bg3.jpg"];
