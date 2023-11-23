@@ -1,10 +1,28 @@
 /* Header */
 
+* {
+  font-family: "Smooch Sans", sans-serif;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+
 .navigation-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: min-content;
+  margin: 1rem;
 }
 
 .navigation {
@@ -14,6 +32,7 @@
 
 .navigation.a {
   text-decoration: none;
+  border: 3px solid;
 }
 .title-header {
   background-color: green;
